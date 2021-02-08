@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Ubuntu;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #322;
+}
+
+a{
+    text-decoration: none;
+    color: #322;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+#head{
+    background-color: whitesmoke;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container{
+    
+    margin: 0 auto;
+    max-width: 630px;
+    width: 90vh;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.nav-links ul{
+    display: flex;
+}
+
+.nav-links a{
+    margin: 0 1em;
+    font-weight: 500;
+}
+
+.nav-links a:hover{
+    color: white;
+    transition: color 0.2s;
+}
+
+.active{
+    
+    border-bottom: #322 solid 2px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 8vh);
+}
+
+.main-section{
+    background-color: #332;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.main-section h1{
+    color: whitesmoke;
+    padding:  20px 40px;
+    
+}
+
+.btn{
+    margin-top: 25px;
+}
+
+.btn button{
+    display: inline-block;
+    border: #332 solid 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: transparent;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn button:hover,
+.btn button:focus{
+    border: whitesmoke solid 2px;
+    background-color: #322;
+    color: white; 
+    transition: all 0.5s;
+    outline: none;
+}
+
+
+
+
+
+
+
